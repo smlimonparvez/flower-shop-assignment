@@ -1,0 +1,174 @@
+/* universal css */
+* {}
+
+/* hero sectoin */
+.hero-section {
+    background: #fceef1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-info h2 {}
+
+.hero-info p {}
+
+.btn-primary {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background: #E55473;
+    color: #ffffff;
+}
+
+.hero-image img {
+    height: 600px;
+}
+
+/* feature section */
+.feature-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.feature-info {
+    text-align: center;
+}
+
+.feature-info h2 {}
+
+.feature-info p {}
+
+.feature-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+}
+
+.img-1 {
+    background: #F1DDE7;
+}
+
+.img-2 {
+    background: #D9EFF0;
+}
+
+.img-3 {
+    background: #E3EBDB;
+}
+
+figcaption {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* key feature part */
+.key-features {
+    background: #f4f4f4;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.key-feature-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.key-feature-info {
+    text-align: center;
+}
+
+.key-feature-info p {}
+
+/* hot deal section */
+.hot-deal {
+    background: #FDF6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.hot-deal-info h2 {}
+
+.red-color {}
+
+.hot-deal-info p {}
+
+.hot-deal-img img {
+    height: 300px;
+}
+
+/* instagram section */
+.instagram,
+.pinterest {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.instagram-info,
+.pinterest-info {
+    text-align: center;
+}
+
+.instagram-img,
+.pinterest-img {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.insta-img {
+    width: 250px;
+    height: 250px;
+}
+
+.pin-img {
+    width: 250px;
+    height: 250px;
+    background: #F0F0F0;
+}
+
+/* get-touch */
+.get-touch {
+    background-image: url(images/Rectangle\ 9.png);
+    padding: 100px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* footer section */
+footer {
+    background: black;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F0F0F0;
+}
+
+footer h2 {}
+
+footer p {
+    text-align: center;
+}
