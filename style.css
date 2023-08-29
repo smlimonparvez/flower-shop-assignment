@@ -12,18 +12,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
 
-.hero-info h2 {}
+.hero-info h2 {
+    font-size: 3em;
+    font-weight: bolder;
+}
 
-.hero-info p {}
+.hero-info p {
+    color: #7C7677;
+    margin-bottom: 20px;
+}
 
 .btn-primary {
-    padding: 8px 16px;
+    padding: 8px 18px;
     border: none;
     border-radius: 5px;
     background: #E55473;
     color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .hero-image img {
@@ -39,11 +49,17 @@
 
 .feature-info {
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.feature-info h2 {}
+.feature-info h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
 
-.feature-info p {}
+.feature-info p {
+    color: #B3B3B3;
+}
 
 .feature-images {
     display: flex;
@@ -78,6 +94,8 @@ figure img {
 figcaption {
     text-align: center;
     text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.3em;
 }
 
 /* key feature part */
@@ -87,6 +105,7 @@ figcaption {
     width: 80%;
     margin-bottom: 50px;
     padding: 40px;
+    border-radius: 7px;
 }
 
 .key-feature-card {
@@ -98,7 +117,10 @@ figcaption {
     text-align: center;
 }
 
-.key-feature-info p {}
+.key-feature-info p {
+    color: #505050;
+    font-weight: 800;
+}
 
 /* hot deal section */
 .hot-deal {
@@ -110,11 +132,20 @@ figcaption {
     margin-bottom: 50px;
 }
 
-.hot-deal-info h2 {}
+.hot-deal-info h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
 
-.red-color {}
+.red-color {
+    color: red;
+}
 
-.hot-deal-info p {}
+.hot-deal-info p {
+    color: #505050;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
 .hot-deal-img img {
     height: 300px;
@@ -131,6 +162,19 @@ figcaption {
 .instagram-info,
 .pinterest-info {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.instagram-info h2,
+.pinterest-info h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.instagram-info p,
+.pinterest-info p {
+    font-weight: 600;
+    color: #505050;
 }
 
 .instagram-img,
@@ -143,12 +187,14 @@ figcaption {
 .insta-img {
     width: 250px;
     height: 250px;
+    border-radius: 5px;
 }
 
 .pin-img {
     width: 250px;
     height: 250px;
     background: #F0F0F0;
+    border-radius: 5px;
 }
 
 /* get-touch */
@@ -159,6 +205,22 @@ figcaption {
     margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
+    border-radius: 5px;
+}
+
+.get-touch-info {
+    margin-bottom: 20px;
+}
+
+.get-touch-info h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.get-touch-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #505050;
 }
 
 /* footer section */
