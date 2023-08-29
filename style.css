@@ -241,8 +241,20 @@ footer {
     color: #F0F0F0;
 }
 
-footer h2 {}
+footer h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.pink-color {
+    color: #E55473;
+}
 
 footer p {
     text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a3a3a3;
+    margin-bottom: 20px;
 }
